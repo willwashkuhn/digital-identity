@@ -216,7 +216,7 @@ width:57%;
 	overflow: hidden;
 	line-height: 1;
 	
-	color:#4eacff;
+	color:#76b852;
 }
 
 .link--kumya:hover {
@@ -251,7 +251,7 @@ width:57%;
 .link--kumya span::before {
 	content: attr(data-letters);
 	position: absolute;
-	color:#4eacff;
+	color:#76b852;
 	left: 0;
 	overflow: hidden;
 	white-space: nowrap;
@@ -654,7 +654,7 @@ color:#76b852;
 }
 /*-- //to-top --*/
 /*-- responsive media queries --*/
-@media (max-width: 1024px){
+@media (max-width: 1200px){
 	.nav-left a {
 	  font-size: 8em;
 	  }
@@ -737,7 +737,7 @@ color:#76b852;
 	  font-size: 19px;
 	  }
 }
-@media (max-width: 800px){
+@media (max-width: 1000px){
 	.navigation {
 	  float: left;
 	  width: 30%;
@@ -881,7 +881,7 @@ color:#76b852;
 	font-size: 13px;
 	}
 }
-@media (max-width: 768px){
+@media (max-width: 800px){
 	.navigation {
 	  float: left;
 	  width: 30%;
@@ -1025,7 +1025,7 @@ color:#76b852;
 	font-size: 32px;
 	}
 }
-@media (max-width: 640px){
+@media (max-width: 768px){
 	.nav-left a {
 	  font-size: 5.5em;
 	}
@@ -1122,7 +1122,7 @@ color:#76b852;
 	  font-size: 20px;
 	}
 }
-@media (max-width: 480px){
+@media (max-width: 640px){
 	.about-info h3, .skill-info h2, .gallery h3, .ser-head h3, .news h3, .get-info h3 {
 	  font-size: 26px;
 	}
@@ -1200,7 +1200,7 @@ color:#76b852;
 	}
 	
 }
-@media (max-width: 320px){
+@media (max-width: 480px){
 .navigation {
 padding:0;
   width: 100%;
