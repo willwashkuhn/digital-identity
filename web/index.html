@@ -46,7 +46,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-md-4 navigation">
 				<div class="nav-left">
 					<div class="grid__item color-4">
-						<a class="link link--kumya" href="#home"><span data-letters="PEAK">PEAK</span></a>
+						<a class="link link--kumya" href="#home"><span data-letters="WI">WILL</span></a>
 					</div>
 				</div>
 				<div class="nav-right">
@@ -147,16 +147,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								var colors = [
 										['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852']
 									];
+									
+								var percentages = [85,80,65,80];
+								
 								for (var i = 1; i <= 5; i++) {
 									var child = document.getElementById('circles-' + i),
-										percentage = 40 + (i * 10);
+										percentage = percentages[i - 1];
 										
 									Circles.create({
 										id:         child.id,
 										percentage: percentage,
 										radius:     80,
 										width:      10,
-										number:   	percentage / 10,
+										number:   	percentage,
 										text:       '%',
 										colors:     colors[i - 1]
 									});
@@ -184,7 +187,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="images/a1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/a1.jpg" alt="" />
 							<div>
-								<h5>VIEW</h5>
+								<h5>STATSpass Home</h5>
 							</div>
 						</a>
 					</li>
@@ -192,7 +195,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="images/a2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/a2.jpg" alt="" />
 							<div>
-								<h5>VIEW</h5>
+								<h5>SPSS Advanced Search</h5>
 							</div>
 						</a>
 					</li>
@@ -200,7 +203,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="images/a3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/a3.jpg" alt="" />
 							<div>
-								<h5>VIEW</h5>
+								<h5>SPSS Scouting Reports</h5>
 								
 							</div>
 						</a>
@@ -209,7 +212,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="images/a4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/a4.jpg" alt="" />
 							<div>
-								<h5>VIEW</h5>
+								<h5>STATS Hosted Solution</h5>
 								
 							</div>
 						</a>
@@ -218,43 +221,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="images/a5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/a5.jpg" alt="" />
 							<div>
-								<h5>VIEW</h5>
+								<h5>STATS API Example</h5>
 								
 							</div>
 						</a>
 					</li>
-					<li>
+					<li>	
 						<a href="images/a6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/a6.jpg" alt="" />
 							<div>
-								<h5>VIEW</h5>
-								
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="images/a7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-							<img src="images/a7.jpg" alt="" />
-							<div>
-								<h5>VIEW</h5>
-								
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="images/a1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-							<img src="images/a1.jpg" alt="" />
-							<div>
-								<h5>VIEW</h5>
-								
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="images/a2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-							<img src="images/a2.jpg" alt="" />
-							<div>
-								<h5>VIEW</h5>
+								<h5>STATS API URI Tester</h5>
 								
 							</div>
 						</a>
